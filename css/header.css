@@ -1,0 +1,23 @@
+﻿
+
+ .phead {
+     padding-top:10em;
+     padding-bottom:5em;
+     background:#0c7aa7;
+     color: white;
+     text-align:center;
+     text-transform: uppercase;
+}
+ .phead h1{
+        font-size:1.6em;
+    } 
+
+@media (max-width: 548px) {
+    .phead {
+        padding-bottom: 3em;
+        padding-top:9em;
+    } 
+    .phead h1{
+        font-size:1.2em;
+    } 
+}

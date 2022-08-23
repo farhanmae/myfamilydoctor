@@ -1,0 +1,279 @@
+﻿
+
+.banner-container{
+    margin:0; 
+    padding-top:5em;
+}
+
+#bannerimg.img-responsive{
+ 
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    width:100%;
+    height:100%;     
+    margin:0;
+}
+
+
+@media (max-width: 548px) {
+    h3 {
+    font-size: 1.3rem;
+}
+  h4 {
+    font-size:1.2rem
+     }
+  h5 {
+    font-size:1.1rem
+     }
+    /*#bannerimg.img-responsive {
+    height:18em;
+    padding-bottom:1em;
+    }*/
+}
+
+.aboutus {
+    padding:3em 5em 1em 5em;
+}
+
+@media (max-width: 548px) {
+    .aboutus {
+        padding: 0.5em 1em 1em 1em;
+    }
+}
+
+.aboutus .aboutphoto img {
+    width: 100%;
+}
+
+@media (max-width: 548px) {
+    .aboutus .wrap-block {
+        padding: 0.5em 2em;
+    }
+    .headings h3{
+      font-size: 1rem;
+}
+.headings h1{
+      font-size: 1.1rem;
+}
+}
+.headings{
+   padding-bottom:1em;
+}
+.mnhead{
+     color: #084b6f;
+     font-weight: 500;
+     font-size: 1.15rem;
+     display: inline;
+     text-transform: uppercase;
+}
+.mnhead1{
+      color: #084b6f;
+      font-weight: 500;
+      font-size: 1.3rem;
+      display: inline;
+      text-transform: uppercase;
+}
+.head {
+  color: #084b6f;
+  font-weight: 500;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  padding-top:1em;
+}
+.subhead{
+  color:#0d56a5;
+  font-weight:normal;
+  margin-bottom: 1em;
+  text-align:justify;
+}
+
+ .countsection {
+    padding:1em 3em 1em 5em;   
+    background-color:#ecfaff;
+}
+
+ 
+
+@media (max-width: 548px) {
+    .countsection{
+        padding: 1em ;
+    }
+
+
+}
+ .comm-cont1 {
+     background-color:#ecfaff;
+     padding-bottom:1em;
+     text-align: center; 
+}
+.counter-count1{
+    font-size:1.2em;
+    font-weight:500;
+    color:darkblue;
+}
+
+.counter-title1{
+    font-weight:600;
+    color:#52585f;
+}
+.counter-icons {
+    content:url("../images/counter.jpg");
+}
+
+@media (max-width: 548px) {
+    .comm-cont1 {
+        padding: 1.5em 0 1.5em 0;
+    }
+}
+
+
+            @media screen and (min-width: 20em) {
+                * {
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                }
+           }
+
+.whywe {
+    padding:3em 5em 1em 5em;
+}
+.whyweBox {
+    text-align: center;
+    padding: 0 0.3125em;
+   }
+
+@media (max-width: 548px) {
+    .whywe {
+        padding: 0.5em 1.5em 1em 1.5em;
+    }
+}
+
+.whyweBox .title{
+    color: #fff;
+    background: linear-gradient(to top right,#0c7aa7,#68c3e8);
+    font-size: 1em;
+    font-weight: 600;
+    padding: 1.25em 1.8em;
+    margin: 0 0 10px;
+    border-radius: 0 9em 0 0/0 6em 0 0;
+}
+
+
+@media only screen and (max-width:990px){
+    .whyweBox{ margin: 0 0 1.8em; }
+}
+
+
+.sb1, .sb2{    
+    padding-top:1.5em;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.servicesection{
+   padding:2em 3em 1em 3em;
+}
+
+.servicesection .head{
+      text-align:center;
+}
+
+@media (max-width: 548px)  {
+    .servicesection {
+        padding: 0.8em 2em 1em 2em;
+    }
+   .sbcol{
+       padding-top:1em;
+   }
+   .sb1, .sb2{
+         padding-top:0.5em;
+         padding-bottom:0.5em
+    }
+}
+
+
+.serviceBox{
+    padding: 2.2em 1.25em 1.5em;
+    border: 0.11em solid #0c7aa7;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    margin-bottom:1em;
+    height:100%;
+ }
+
+.serviceBox .service-icon{
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    font-size: 1.7em;
+    color: #064774;
+    margin-bottom: 1.8em;
+    z-index: 1;
+    position: relative;
+    transition:all 0.3s ease 0s;
+}
+.serviceBox:hover .service-icon{ color: #fff; }
+
+.serviceBox .service-icon:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 0.12em;
+    border: 0.07em solid #0c7aa7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(45deg);
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover .service-icon:before{
+    border-color: #0c7aa7 ;
+    background:#3498db ;
+}
+.serviceBox .service-title{
+    font-size: 1.12em;
+    font-weight: 600;
+    color: #105e94;
+    margin: 0 0 0.93em 0;
+}
+
+.letstalk{
+    background-color:#0c7aa7;
+    padding-top:4em;
+    padding-bottom:4em;
+}
+.letstalk h4{ 
+    color:#fff;
+    font-weight:lighter;
+}
+@media (max-width: 548px) {
+.letstalk{   
+    padding-top:2em;
+    padding-bottom:2em;
+}
+}
+
+.btn-info{
+    color:#fff;
+    background-color:#0c7aa7;
+    border-color: #fff;
+    /*font-size:0.8em;*/
+    /*font-weight:600;*/
+}
+ .btn-info:hover {
+    background-color:#26aae1;
+    border-color: #b3d7ff;
+    }   
+
+ .LTbtn{
+      padding-top:1.5em;
+ }
+
+
+ 
+

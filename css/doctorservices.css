@@ -1,0 +1,53 @@
+﻿
+/* ------------------------------------------------------------------------------
+	 Serives
+-------------------------------------------------------------------------------*/
+
+        .icon {
+            font-family: 'elegant-theme-line';
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height:1;
+        }
+.service-section {
+	padding-top: 100px;
+    width:100%;
+}
+.services {
+	margin-bottom: 50px;
+}
+.services-content {
+	padding: 30px 30px 20px;
+	margin-top: 30px;
+	background: #ffffff;
+	text-align: left !important;
+	display: table-cell;
+	border-radius: 0;
+	border: 1px solid #0c7aa7;
+}
+.services .icon {
+	color: #44b3ff;
+	font-size: 28px;
+	padding-top: 30px;
+	float: left;
+	background: #ffffff;
+	border-radius: 50%;
+	height: 90px;
+	width: 90px;
+	font-weight: 600;
+	margin-bottom: 46px;
+	display: table-cell;
+	border: #0c7aa7 solid 1px;
+	margin-right: -11px;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+

@@ -1,0 +1,135 @@
+﻿
+
+.container-fluid{
+    margin:0;
+    padding:0;
+}
+
+.banner-container {
+ position: relative;
+}
+
+
+/* Bottom right text */
+.text-block{
+  position: absolute;  
+  left: 1.3em;
+  /*top:25%;*/
+  color: #082e56;  
+  padding:1.5em 1.3em 3em 1.3em;
+  width:auto; 
+}
+#main-tag h1 {
+     color: #26aae1;
+}
+
+#main-tag {
+    top:35%;
+    align-content:flex-end;
+    
+}
+#tag1 {
+    top:50%;
+}
+#tag2 {
+    top:60%;
+}
+#tag3 {
+    top:60%;
+}
+#tag4 {
+    top:70%;
+}
+#tag5 {
+    top:80%;
+}
+
+.text-block h3{
+    font-size:1.4em;  
+}
+
+div.newcolor {
+    color: blue;
+  }
+
+.finez-tag {
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 548px) {
+    .text-block h3{
+        font-size: 0.83em;
+    }
+    .text-block {
+          left: 1em;
+          /*top:25%;*/       
+          padding:1em;
+    }      
+}
+
+@media (max-width: 720px) {
+    #main-tag h1 {
+        font-size: 1.2rem;
+        width: 100%;
+        padding-top:1.5em;
+    }
+    #tag1 {
+    top:60%;
+}
+   #tag2 {
+    top:70%;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+     #main-tag h1 {
+        font-size: 1.8rem;
+    }
+     .finez-logo{
+     max-height:58px;
+  }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .homeimage {min-height: 165px;}
+  .finez-logo{
+     max-height:60px;
+  }
+  .banner-container{
+      padding-top:5.7em;
+  }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .homeimage {min-height: 290px;}
+
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .homeimage {min-height: 353px;}
+ 
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .homeimage {min-height: 437px;}
+
+ 
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   .homeimage {min-height: 594px;}
+
+ 
+}

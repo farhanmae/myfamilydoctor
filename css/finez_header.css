@@ -1,0 +1,130 @@
+﻿
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+.finez-logo {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 2px;
+  margin:2px;
+  height:60px;
+  width: auto;
+  content:url("../images/logo.jpg");
+  background-color: white;
+}
+/*.header-logo {
+  margin-bottom:1.7em;
+}
+.header-logo img {
+    max-width: 9em;
+}*/
+body {
+  margin: 0;
+  background-color: #fff;
+  color:#494e4e;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p {
+  text-align:justify;
+  font-size:1em;
+}
+@media (max-width: 548px) {
+    p {
+      font-size:0.95em;
+      }
+}
+a {
+  color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #383d41;
+    font-weight:500;
+     padding-left: 1.7em;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0c7aa7;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #0aa7ca;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #0aa7ca;
+}
+
+@media (max-width: 548px) {
+.navbar-light .navbar-nav .nav-link {
+    font-weight:normal;
+}
+}
+
+.dropdown-item {
+    display: block;
+    width: auto;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item {
+   font-size:0.96em;
+}
+.dropdown-item:hover {
+    color: #0c7aa7;
+}
+@media (max-width: 548px) {
+    .dropdown-item {
+        font-size: 0.8em;
+    }
+}
+
+.bg-light {
+    background-color: #fff!important;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+ .dropdown-menu > li > a:hover
+   {
+     background:#cce9f5;
+     color:#064990;
+     font-weight:500;
+   }
+
+.navbar-collapse {
+   justify-content: flex-end;
+}
+
+.navbar {
+
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    border-bottom: 1px solid #e2e2e2;
+}
+

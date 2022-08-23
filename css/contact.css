@@ -1,0 +1,250 @@
+﻿body {
+    padding:0;
+     margin:0;
+}
+.mainhead{
+    color:#084b6f;
+    text-align:center;
+    padding-bottom:1em;
+    padding-top:2.5em;
+}
+@media (max-width: 548px) {    
+      
+       h5 {
+        font-size: 1em;
+          }
+}
+.chead{
+    color:#064990;
+    padding-top:1.5em;
+    padding-bottom:0.5em;
+}
+.btn-info {
+    color: #fff;
+    background-color: #0c7aa7;
+    border-color: #fff;
+}
+.btn-outline-info{
+    border: 0;
+  padding: 10px 32px;
+  color: #0880e8;
+  transition: 0.4s;
+  border-radius: 50px;
+  border: 2px solid #0880e8;
+  background: #fff;
+}
+.btn-outline-info:hover{
+     background: #0880e8;
+  color: #fff;
+}
+
+.btn-success{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+    border-radius:10px;
+    border-color:#999;
+    
+}
+   
+.cntb a{
+  color:#5a5d5a;
+}
+.cntb a:hover{
+   color: #0a8ec5;
+   text-decoration:none;
+}
+.Request{
+    background-color:#0c7aa7;
+    padding-top:1em;
+    padding-bottom:2em;
+}
+.RQtitle{ 
+    padding-top:1em;
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:normal;
+}
+.RQsubtitle{
+    color:#77e6fb;
+}
+@media (max-width: 548px) {
+.Request{   
+    padding-top:0.5em;
+    padding-bottom:1.5em;
+}
+}
+.cntinfo{
+    padding:1em;
+}
+
+.cntcol{
+    border-left:0.12em solid #fff;
+}
+@media (max-width: 1024px) {
+    .cntcol{
+    border-left:0.11em solid #0c7aa7;
+}
+}
+
+/*@media (max-width: 768px) {
+    .contactmap iframe {
+        width: 100%;
+        height: 100%;
+    }
+}*/
+
+.contactmap iframe {
+        width: 100%;
+        height: 18em;
+    }
+ .mapouter {
+           position: relative;
+           text-align:center;
+           height: 100%;
+           width: 100%;
+           }
+
+.gmap_canvas {
+          overflow: hidden;
+          background: none !important;
+          height: 100%;
+          width: 100%;
+           }
+
+
+
+
+/*--------------------------------------------------------------
+#doctor  Contact
+--------------------------------------------------------------*/
+.contact {
+  background: url("../images/contact-bg.jpg") left center no-repeat;
+  position: relative;
+}
+
+.contact:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.contact .container {
+  position: relative;
+}
+
+.contact .info {
+  width: 100%;
+}
+
+.contact .info i {
+  font-size: 20px;
+  background: #0880e8;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #043c6d;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #444444;
+}
+
+.contact .info .email, .contact .info .phone {
+  margin-top: 40px;
+}
+.connect {
+            position: fixed;
+            bottom: 2em;
+            right: .9em;
+            font-size: 1.7em;
+            box-shadow: .11px .11px .21px #999;
+            z-index: 100;
+        }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .connect {
+            position: fixed;
+            right: .9em;
+            font-size: 1.7em;
+            box-shadow: .11px .11px .21px #999;
+            z-index: 100;
+        }
+
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .connect {
+            position: fixed;
+            right: .9em;
+            font-size: 1.7em;
+            box-shadow: .11px .11px .21px #999;
+            z-index: 100;
+        }
+
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .connect {
+            position: fixed;
+            right: .9em;
+            font-size: 1.7em;
+            box-shadow: .11px .11px .21px #999;
+            z-index: 100;
+        }
+
+  
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .connect {
+            position: fixed;
+            right: .9em;
+            font-size: 1.7em;
+            box-shadow: .11px .11px .21px #999;
+            z-index: 100;
+        }
+
+    
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .connect {
+            position: fixed;
+            right: .9em;
+            font-size: 1.7em;
+            box-shadow: .11px .11px .21px #999;
+            z-index: 100;
+        }
+
+   
+}
+ 

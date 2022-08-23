@@ -1,0 +1,400 @@
+﻿
+.container-fluid{
+    padding:0;
+    margin:0;    
+}
+.homeimage{
+    position: relative;
+  background:url("../images/coverimage.jpg");
+    /*min-height: 594px;*/
+	background-size: cover;
+    display:flex;
+    align-items:center;
+
+}
+
+*#bannerimg.img-responsive{
+   background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    width:100%;
+    height:100%;     
+    margin:0;
+
+}
+
+
+#carousel {
+position: relative;
+width:60%;
+margin:0 auto;
+/*min-height:594px;*/
+align-items:center;
+margin-top:5px;
+padding-top:5px;
+
+}
+
+#slides {
+overflow: hidden;
+position: relative;
+width: 100%;
+/*height: 250px;*/
+width:100%;
+min-width:800px;
+display:block;
+}
+
+#slides ul {
+list-style: none;
+width:100%;
+/*height:250px;*/
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+ #slides li {
+width:100%;
+/*height:250px;*/
+float:left;
+text-align: center;
+position: relative;
+font-family:lato, sans-serif;
+}
+/* Styling for prev and next buttons */
+/*.btn-bar{
+    max-width: 346px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 40px;
+    width: 100%;
+}*/
+
+ /*#buttons {
+padding:0 0 5px 0;
+float:right;
+}
+
+#buttons a {
+text-align:center;
+display:block;
+font-size:50px;
+float:left;
+outline:0;
+margin:0 60px;
+color:#fff;
+text-decoration:none;
+display:block;
+padding:9px;
+width:35px;
+}*/
+
+
+a#prev:hover, a#next:hover {
+color:#FFF;
+text-shadow:.5px 0px #b14943;  
+}
+
+.quote-phrase, .quote-author {
+font-family:sans-serif;
+font-weight:300;
+display: table-cell;
+vertical-align: middle;
+padding: 5px 20px;
+font-family:'Lato', Calibri, Arial, sans-serif;
+}
+
+.quote-phrase {
+    
+height: 200px;
+font-size:24px;
+color:blue;
+font-style:italic;
+text-shadow:.5px 0px #b14943; 
+font-weight:bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.quote-marks {
+font-size:30px;
+padding:0 3px 3px;
+position:inherit;
+}
+
+.quote-author {
+font-style:normal;
+font-size:20px;
+color:#b14943;
+font-weight:400;
+height: 30px;
+}
+
+.quoteContainer, .authorContainer {
+display: table;
+width: 100%;
+/*padding-top:80px;
+margin-top:50px*/;
+}
+
+.coverhead{
+    font-size:35px;
+    padding-left:35px;
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000000;
+}
+
+
+@media (max-width: 1200px) {
+
+    .homeimage{
+    position: relative;
+  background:url("../images/coverimage.jpg");
+  background-repeat:no-repeat; 
+    max-width:100%;
+    /*min-height:100px;*/
+    background-size:100%;
+
+}
+
+
+    /*#buttons a {
+text-align:center;
+display:block;
+font-size:25px;
+float:left;
+outline:0;
+margin:0 60px;
+color:#fff;
+text-decoration:none;
+display:none;
+padding:9px;
+width:35px;
+}*/
+
+
+ 
+
+   #carousel {
+
+position:relative;
+width:100%;
+margin:0 auto;
+
+}
+
+
+   #slides {
+overflow: hidden;
+position: relative;
+width: 100%;
+/*/height: 250px;*/
+width:100%;
+min-width:200px;
+display:block;
+}
+   
+
+#slides ul {
+list-style: none;
+width:100%;
+height:150px;
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+
+/*.quote-phrase {
+    
+height: 150px;
+font-size:16px;
+color:blue;
+font-style:italic;
+text-shadow:.5px 0px #b14943;  
+font-weight:bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.quoteContainer, .authorContainer {
+display: table;
+width: 70%;
+padding-left:30px;
+margin-left:30px;
+padding-top:0px;
+margin-top:0px;
+
+}*/
+
+/* Styling for prev and next buttons */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .homeimage {min-height: 165px;}
+    .quoteContainer, .authorContainer {
+        justify-content:center;
+        width:90%;
+        padding-top:0;
+        margin-top:0;
+        padding-left:0;
+        padding-right:0;
+    }
+
+
+    .quote-phrase {
+    
+height: 130px;
+font-size:10px;
+color:blue;
+font-style:italic;
+text-shadow:.5px 0px #b14943;  
+font-weight:bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+   .coverhead{
+    font-size:16px;
+    padding-left:15px;
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000000;
+    padding-top:5px;
+}  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .homeimage {min-height: 290px;}
+
+  .quote-phrase {
+    
+height: 150px;
+font-size:16px;
+color:blue;
+font-style:italic;
+text-shadow:.5px 0px #b14943;  
+font-weight:bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.quoteContainer, .authorContainer {
+display: table;
+width: 70%;
+justify-content:center;
+/*padding-left:30px;
+margin-left:30px;*/
+/*padding-top:0px;
+margin-top:0px;*/
+
+}
+   .coverhead{
+    font-size:20px;
+    padding-left:20px;
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000000;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .homeimage {min-height: 353px;}
+  .quote-phrase {
+    
+height: 150px;
+font-size:16px;
+color:blue;
+font-style:italic;
+text-shadow:.5px 0px #b14943;  
+font-weight:bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.quoteContainer, .authorContainer {
+    justify-content:center;
+display: table;
+width: 70%;
+/*padding-left:30px;
+margin-left:30px;*/
+/*padding-top:0px;
+margin-top:0px;*/
+
+}
+  .coverhead{
+    font-size:25px;
+    padding-left:25px;
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000000;
+}
+ 
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .homeimage {min-height: 437px;}
+
+    .quote-phrase {
+    
+height: 150px;
+font-size:16px;
+color:blue;
+font-style:italic;
+text-shadow:.5px 0px #b14943;  
+font-weight:bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.quoteContainer, .authorContainer {
+    justify-content:center;
+display: table;
+width: 70%;
+/*padding-left:30px;
+margin-left:30px;*/
+/*padding-top:0px;
+margin-top:0px;*/
+
+}
+.coverhead{
+    font-size:35px;
+    padding-left:35px;
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000000;
+}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   .homeimage {min-height: 594px;}
+
+   .quoteContainer, .authorContainer {
+       justify-content:center;
+display: table;
+width: 100%;
+/*padding-top:80px;
+margin-top:50px;*/
+}
+   .quote-phrase {
+    
+height: 200px;
+font-size:24px;
+color:blue;
+font-style:italic;
+text-shadow:.5px 0px #b14943; 
+font-weight:bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+
+.coverhead{
+    font-size:35px;
+    padding-left:35px;
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000000;
+}
+}
